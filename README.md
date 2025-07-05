@@ -1,40 +1,48 @@
 📦 Sistem Manajemen Stok Barang – Phoenix Grocery
 📝 Deskripsi
-Aplikasi web untuk membantu Phoenix Grocery mengelola stok barang secara digital—mulai dari login, pencatatan barang masuk/keluar, hingga laporan.
+Aplikasi web untuk membantu Phoenix Grocery mengelola stok barang secara digital 📊. Mulai dari login, pencatatan barang masuk/keluar, hingga laporan 📄.
 
-⚙️ Fitur
-Login admin
+⚙️ Fitur Utama
+🔐 Login admin
 
-CRUD stok barang
+📥 Barang masuk & kembali
 
-Barang masuk & keluar
+📤 Barang keluar
 
-Catatan admin
+📦 Manajemen stok (CRUD)
 
-Peringatan stok habis
+⚠️ Notifikasi stok habis
 
-Laporan transaksi
+🧾 Laporan transaksi
 
-🛠 Teknologi
-PHP, MySQL
+🗒️ Catatan admin
 
-HTML, CSS, Bootstrap
+🛠️ Teknologi
+💻 PHP Native
 
-jQuery, JavaScript
+🗃️ MySQL
 
-📁 Struktur Utama
-dbconnect.php: Koneksi DB
+🎨 HTML, CSS, Bootstrap
 
-stock.php, masuk.php, keluar.php: CRUD barang
+🧠 JavaScript, jQuery
 
-notes.php: Fitur catatan
+📁 File Penting
+dbconnect.php → 🔗 Koneksi database
 
-laporan.php: Laporan stok
+stock.php → 📦 Data stok barang
 
-🖼️ Tampilan Website
-Picture1.png: Dashboard sistem
+masuk.php → 📥 Input barang masuk
 
-Picture2.png: Halaman catatan
+keluar.php → 📤 Input barang keluar
 
-👤 User
-Admin – mengelola seluruh data dan transaksi stok.
+notes.php → 🗒️ Tambah catatan admin
+
+laporan.php → 📄 Cetak laporan
+
+🖼️ Tampilan Web
+Picture1.png → 🖥️ Tampilan Dashboard
+
+Picture2.png → 📝 Halaman Catatan
+
+👤 Pengguna
+Admin 👨‍💼 – Punya akses penuh terhadap semua fitur.
