@@ -1,48 +1,65 @@
-📦 Sistem Manajemen Stok Barang – Phoenix Grocery
-📝 Deskripsi
-Aplikasi web untuk membantu Phoenix Grocery mengelola stok barang secara digital 📊. Mulai dari login, pencatatan barang masuk/keluar, hingga laporan 📄.
+# 📦 Sistem Manajemen Stok Barang – Phoenix Grocery
 
-⚙️ Fitur Utama
-🔐 Login admin
+## 📝 Deskripsi
 
-📥 Barang masuk & kembali
+Aplikasi web ini dirancang untuk membantu **Phoenix Grocery** dalam mengelola stok barang secara digital. Mulai dari proses login admin, pencatatan barang masuk/keluar, pengelolaan data, hingga pencetakan laporan transaksi — semua dalam satu sistem yang praktis dan efisien. 📊📄
 
-📤 Barang keluar
+---
 
-📦 Manajemen stok (CRUD)
+## ⚙️ Fitur Utama
 
-⚠️ Notifikasi stok habis
+- 🔐 **Login Admin** – Keamanan akses pengguna
+- 📥 **Barang Masuk & Kembali** – Pencatatan stok masuk
+- 📤 **Barang Keluar** – Pencatatan stok keluar
+- 📦 **Manajemen Stok (CRUD)** – Tambah, edit, hapus, dan lihat data stok
+- ⚠️ **Notifikasi Stok Habis** – Peringatan jika stok kosong
+- 🧾 **Laporan Transaksi** – Laporan untuk dicetak/download
+- 🗒️ **Catatan Admin** – Tambahan informasi penting oleh admin
 
-🧾 Laporan transaksi
+---
 
-🗒️ Catatan admin
+## 🛠️ Teknologi
 
-🛠️ Teknologi
-💻 PHP Native
+- 💻 **PHP Native**
+- 🗃️ **MySQL**
+- 🎨 **HTML, CSS, Bootstrap**
+- 🧠 **JavaScript, jQuery**
 
-🗃️ MySQL
+---
 
-🎨 HTML, CSS, Bootstrap
+## 📁 File Penting
 
-🧠 JavaScript, jQuery
+| File              | Fungsi                                |
+|-------------------|----------------------------------------|
+| `dbconnect.php`   | 🔗 Koneksi ke database                 |
+| `stock.php`       | 📦 Menampilkan data stok barang       |
+| `masuk.php`       | 📥 Input barang masuk                 |
+| `keluar.php`      | 📤 Input barang keluar                |
+| `notes.php`       | 🗒️ Tambah dan kelola catatan admin   |
+| `laporan.php`     | 📄 Cetak laporan transaksi            |
 
-📁 File Penting
-dbconnect.php → 🔗 Koneksi database
+---
 
-stock.php → 📦 Data stok barang
+## 🖼️ Tampilan Web
 
-masuk.php → 📥 Input barang masuk
+### 🖥️ Tampilan Login
+![Dashboard](Picture1.png)
 
-keluar.php → 📤 Input barang keluar
+### 📝 Halaman Dashboard
+![Catatan](Picture2.png)
 
-notes.php → 🗒️ Tambah catatan admin
+---
 
-laporan.php → 📄 Cetak laporan
+## 👤 Pengguna
 
-🖼️ Tampilan Web
-Picture1.png → 🖥️ Tampilan Dashboard
+- **Admin 👨‍💼** – Akses penuh terhadap seluruh sistem dan data.
 
-Picture2.png → 📝 Halaman Catatan
+---
 
-👤 Pengguna
-Admin 👨‍💼 – Punya akses penuh terhadap semua fitur.
+## 🚀 Cara Menjalankan
+
+1. Install XAMPP
+2. Letakkan folder project di direktori `htdocs`
+3. Import file database `.sql` (jika tersedia) ke phpMyAdmin
+4. Jalankan Apache & MySQL
+5. Akses di browser melalui:
